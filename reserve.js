@@ -30,7 +30,8 @@ var networkLatency = 5;
 
 function getMillisecondsLeft() {
     var nowDate = new Date();
-    var targetDate = new Date(y,M-1,d,h,m,s); 
+    var targetDate = new Date(y,M-1,d,h,m,s);
+    window.console.log('Target Date/Time: '+targetDate)
     return targetDate - nowDate;
 }
 function click() {
