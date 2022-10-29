@@ -12,9 +12,9 @@
 
 var y = 2022;
 var M = 10;     // january=1
-var d = 28;     // 1st=1
-var h = 23;     // 24h time
-var m = 58;
+var d = 29;     // 1st=1
+var h = 00;     // 24h time
+var m = 2;
 var s = 00;
 
 // How long after the target to stop clicking, in milliseconds.
